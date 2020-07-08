@@ -5,7 +5,7 @@ body{
 header{
     width: 100%;
     height: 1000px;
-    background-image: url("../images/computer.jpg");
+    background-image: url("../images/computer3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -14,8 +14,14 @@ header h1, header h2, header ul, header p{
     text-align: center;
 }
 header h2{
-    padding-top: 300px;
+    padding-top: 400px;
+    font-weight: bold;
 }
+header h1{
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
 header li{
     display: inline;
     border: 1px solid white;
@@ -25,23 +31,41 @@ header li{
     padding: 10px;
 }
 
+/*.topnav{
+    background-color: #728899;
+    list-style-type: none;
+    text-align: center;
+    padding: 12px;
+}
+
+.topnav a{
+    border: 2px solid #293F42;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}*/
+
+
 section h1{
     text-align: center;
     font-size: xx-large;
     color: #6A924A;
+    padding-top: 50px;
 }
 section p{
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 50px;
 }
 
-nav ul{
+/*nav ul{
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
-nav li{
+nav li, a#nav-accueil{
     list-style-type: none;
     text-align: center;
     border: 2px solid #293F42;
@@ -51,7 +75,7 @@ nav li{
     margin-top: 10px;
     background-color: #728899;
     padding: 10px;
-}
+}*/
 
 nav li a{
     text-decoration: none;
@@ -65,6 +89,7 @@ footer{
     background-color: #D9E2EA;
     border-radius: 3px 3px 0 0;
     text-align: center;
+    vertical-align: top;
 }
 
 footer a{
@@ -75,5 +100,4 @@ footer a{
 }
 footer p{
     font-size: x-small;
-    line-height:90px;
 }
