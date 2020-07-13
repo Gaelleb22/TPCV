@@ -2,55 +2,148 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-
-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/index.css">
     <title>Loisirs</title>
 </head>
 <body>
     <header>
         <h2>Gaëlle Brossas</h2>
         <h1>Ingénieure d'étude et développement Java DevOps</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="competences.html">Compétences</a></li>
-            <li><a href="formations.html">Formations</a></li>
-            <li><a href="experiences.html">Expériences</a></li>
-            <li><a href="loisirs.html">Loisirs</a></li>
-        </ul>
         
     </header>
     <section>
+
+        <!--Menu-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #728899;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html" style=" color: white;"><i style='font-size:20px' class='fas'>&#xf015;</i></a>
+                <a class="nav-item nav-link" href="formations.html" style=" color: white;">Formations</a>
+                <a class="nav-item nav-link" href="experiences.html" style=" color: white;">Expériences</a>
+                <a class="nav-item nav-link active" href="#" style=" color: white; font-weight: bolder;">Loisirs <span class="sr-only">(current)</span></a>
+              </div>
+            </div>
+          </nav>
+
         <h1>Loisirs</h1>
 
-        <div name="Photographie">
-            <h2>Photographie</h2>
-            <p>description...</p>   
-        </div>
-        <div>
-            <h2>Voyages</h2>
-            <p>Voyage au Japon</p>
-        </div>
-        <div>
-            <h2>Lectures</h2>
-            <p>Diverses et variées (manga, policiers, classiques...)</p>
-        </div>
-        <div>
-            <h2>Autres</h2>
-            <ul>
-                <li>Pâtisserie</li>
-                <li>Broderie</li>
-                <li>Dessin</li>
-                <li>...</li>
-            </ul>
-        </div>
+        <div class="container" style="padding-top: 30px;">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 style="color: #6A924A; font-size: x-large; padding-bottom: 20px;"><i class="material-icons" style="font-size:20px">local_see</i> Photographie</h2>
+                    
+                    <!--Carousel-photo-->
+                    <div id="idCarousel-photo" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <ul class="carousel-indicators">
+                            <li data-target="#idCarousel-photo" data-slide-to="0" class="active"></li>
+                            <li data-target="#idCarousel-photo" data-slide-to="1"></li>
+                            <li data-target="#idCarousel-photo" data-slide-to="2"></li>
+                            <li data-target="#idCarousel-photo" data-slide-to="3"></li>
+                            <li data-target="#idCarousel-photo" data-slide-to="4"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_photo/citron.jpg" alt="Photographie de papillon"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_photo/demoiselle.jpg" alt="Photographie de demoiselle"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_photo/oiseau.jpg" alt="Photographie d'oiseau sur le litoral"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_photo/renard.jpg" alt="Photographie de renard dans la neige"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_photo/spider-lily.jpg" alt="Photographie de lys araignée et machaon"/>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#idCarousel-photo" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                        <a class="carousel-control-next" href="#idCarousel-photo" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 style="color: #6A924A; font-size: x-large; padding-bottom: 20px; padding-top: 30px;"><i class="material-icons" style="font-size:20px">flight</i> Voyages</h2>
+                    
+                     <!--Carousel-voyage-->
+                     <div id="idCarousel-voyage" class="carousel slide" data-ride="carousel" data-interval="5000">
+                        <ul class="carousel-indicators">
+                            <li data-target="#idCarousel-voyage" data-slide-to="0" class="active"></li>
+                            <li data-target="#idCarousel-voyage" data-slide-to="1"></li>
+                            <li data-target="#idCarousel-voyage" data-slide-to="2"></li>
+                            <li data-target="#idCarousel-voyage" data-slide-to="3"></li>
+                            <li data-target="#idCarousel-voyage" data-slide-to="4"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_voyage/arashiyama.jpg" alt="Pont Togetsukyo à Arashiyama"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_voyage/osaka.jpg" alt="Chateau d'Osaka"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_voyage/toit.jpg" alt="Toiture d'un temple"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_voyage/tokyo.jpg" alt="Rainbow bridge à Tokyo"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="mx-auto d-block img-fluid w-100" src="./images/carousel_voyage/tori.jpg" alt="Tori de Fushimi Inari Taisha"/>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#idCarousel-voyage" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                        <a class="carousel-control-next" href="#idCarousel-voyage" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row" style="padding-bottom: 30px;">
+                <div class="col-sm-6">
+                    <div>
+                        <h2 style="color: #6A924A; font-size: x-large; padding-bottom: 15px; padding-top: 30px;"><i class="material-icons" style="font-size:20px">local_library</i> Lectures</h2>
+                        Diverses et variées (manga, policiers, classiques...)
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div>
+                        <h2 style="color: #6A924A; font-size: x-large; padding-bottom: 15px; padding-top: 30px;"><i class="material-icons" style="font-size:20px">more</i> Autres</h2>
+                        <ul style="list-style-type: none;">
+                            <li><i class="material-icons" style="font-size:15px">cake</i> Pâtisserie</li>
+                            <li><i class="material-icons" style="font-size:15px">grid_on</i> Broderie</li>
+                            <li><i class="material-icons" style="font-size:15px">brush</i> Dessin</li>
+                            <li><i class="material-icons" style="font-size:15px">landscape</i> randonnée</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div> 
 
     </section>
     <footer>
         <a href="contact.html">Me contacter</a>
-        <p>Credit image : Rudy et Peter Skitterians - pixabay.com</p>
+        <p>&copy; Credit image : Caroussel - Gaëlle Brossas</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     
 </body>

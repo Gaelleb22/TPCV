@@ -1,0 +1,75 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/computer3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+header h2{
+    padding-top: 400px;
+    font-weight: bold;
+}
+header h1{
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+section h1{
+    text-align: center;
+    font-size: xx-large;
+    color: #6A924A;
+    padding-top: 50px;
+}
+
+section h2 {
+    font-size: x-large;
+    color: #6A924A;
+    padding-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section h3{
+    font-size: large;
+    color: #6A924A;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section p{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #D9E2EA;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+footer a{
+    font-size: x-large;
+    text-decoration: none;
+    color: #6A924A;
+    font-weight: bold;
+}
+footer p{
+    font-size: x-small;
+}
