@@ -11,19 +11,25 @@ section h1{
 
 footer{
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: #D9E2EA;
     border-radius: 3px 3px 0 0;
     text-align: center;
     vertical-align: top;
 }
 
-footer a{
+footer a#contact{
     font-size: x-large;
     text-decoration: none;
     color: #6A924A;
     font-weight: bold;
 }
+footer a#linkedin {
+    font-size: small;
+    text-decoration: none;
+    color: #6A924A;
+}
+
 footer p{
     font-size: x-small;
 }
