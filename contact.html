@@ -5,12 +5,77 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-
 scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Contact</title>
 </head>
 <body>
+    <div class="jumbotron jumbotron-fluid" style="background-color: #D9E2EA;">
+        <div class="container">
+          <h1 class="display-4">Formulaire de contact</h1>
+          <p class="lead">Merci de remplir le formulaire suivant pour me contacter.</p>
+        </div>
+    </div>
+
+    <div class="container" style="padding-top: 30px; margin-bottom: 30px;">
+        <div class="row">
+            <div class="col-md-8" style="margin-bottom: 30px;">
+                <!--formulaire-->
+                <form method="POST" action="mailto:gaellebrossas@orange.fr">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleInputEmail1">Prénom</label>
+                                <input type="text" class="form-control" placeholder="Prénom">
+                            </div>
+                            <div class="col">
+                                <label for="exampleInputEmail1">Nom</label>
+                                <input type="text" class="form-control" placeholder="Nom">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Adresse mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">Veuillez entrer votre adresse mail.</small>
+                      </div>
+                    <div class="form-group">
+                        <p>Message :</p>
+                        <textarea class="form-control" name="memo" rows="10" cols="30">Tapez votre message ici</textarea>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a class="btn btn-primary" style="background-color: #728899;" href="index.html" role="button">Retour à l'accueil</a>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary" style="background-color: #728899;">Envoyer</button>
+                        </div>
+                    </div>
+                    
+
+                </form>
+
+            </div>
+            <div class="col-md-2"style="margin-bottom: 30px;">
+                <!--Carte contact avec mon adresse mail-->
+                <div class="card">
+                    <div class="card-header" style="background-color: #D9E2EA;">
+                        <i class='fas fa-at'></i> Email
+                    </div>
+                    <div class="card-body">
+                        <p>Ou contactez moi à l'adresse suivante : <br/>gaellebrossas@orange.fr</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
 
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
 </body>
 </html>
