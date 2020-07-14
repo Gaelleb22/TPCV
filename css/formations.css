@@ -20,31 +20,6 @@ header h1{
     margin-bottom: 50px;
 }
 
-/*header li{
-    display: inline;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 50px;
-    list-style-type: none;
-    padding: 10px;
-}*/
-
-/*.topnav{
-    background-color: #728899;
-    list-style-type: none;
-    text-align: center;
-    padding: 12px;
-}
-
-.topnav a{
-    border: 2px solid #293F42;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}*/
-
-
 section h1{
     text-align: center;
     font-size: xx-large;
@@ -52,49 +27,8 @@ section h1{
     padding-top: 50px;
 }
 
-section h2 {
-    font-size: x-large;
-    color: #6A924A;
-    padding-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-section h3{
-    font-size: large;
-    color: #6A924A;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-section p{
-    text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 50px;
-}
-
-/*nav ul{
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-nav li, a#nav-accueil{
-    list-style-type: none;
-    text-align: center;
-    border: 2px solid #293F42;
-    border-radius: 5px;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 10px;
-    background-color: #728899;
-    padding: 10px;
-}*/
-
-nav li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+section {
+    margin-bottom: 50px;
 }
 
 footer{
