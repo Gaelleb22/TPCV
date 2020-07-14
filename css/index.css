@@ -2,51 +2,6 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header{
-    width: 100%;
-    height: 1000px;
-    background-image: url("../images/computer3.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-header h1, header h2, header ul, header p{
-    text-align: center;
-}
-header h2{
-    padding-top: 400px;
-    font-weight: bold;
-}
-header h1{
-    font-weight: bolder;
-    margin-bottom: 50px;
-}
-
-header li{
-    display: inline;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 50px;
-    list-style-type: none;
-    padding: 10px;
-}
-
-/*.topnav{
-    background-color: #728899;
-    list-style-type: none;
-    text-align: center;
-    padding: 12px;
-}
-
-.topnav a{
-    border: 2px solid #293F42;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}*/
-
-
 section h1{
     text-align: center;
     font-size: xx-large;
@@ -59,23 +14,6 @@ section p{
     margin-right: 10%;
     padding-bottom: 50px;
 }
-
-/*nav ul{
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
-nav li, a#nav-accueil{
-    list-style-type: none;
-    text-align: center;
-    border: 2px solid #293F42;
-    border-radius: 5px;
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 10px;
-    background-color: #728899;
-    padding: 10px;
-}*/
 
 nav li a{
     text-decoration: none;
