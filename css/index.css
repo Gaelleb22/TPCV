@@ -7,6 +7,7 @@ section h1{
     font-size: xx-large;
     color: #6A924A;
     padding-top: 50px;
+    margin-bottom: 20px;
 }
 section p{
     text-align: justify;
@@ -14,6 +15,10 @@ section p{
     margin-right: 10%;
     padding-bottom: 50px;
 }
+
+.checked {
+    color: white;
+  }
 
 footer{
     width: 100%;
