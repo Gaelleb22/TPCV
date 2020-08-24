@@ -3,7 +3,7 @@ Site statique en HTML, CSS et Bootstrap réalisé dans le cadre d'une formation 
 
 # Adresse Web :
 Si disponible à l'adresse suivante :
-https://gaelleb22.github.io/TPCV/formations.html
+https://gaelleb22.github.io/TPCV/index.html
 
 # Captures d'écran :
 ![capture](/images/screen/screen1.png)
